@@ -1,0 +1,66 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(peakpx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#heading{
+  display: flex;
+  justify-content: center;
+}
+
+#container{
+  background-color: hsl(0, 0%, 100%);
+  padding: 140px;
+  font-size: 2rem;
+}
+#input_container{
+  margin: 40px;
+}
+#mytask{
+   font-size: 2rem;
+}
+
+#mydate{
+  font-size: 2rem;
+
+}
+
+#add_task{
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgb(13, 20, 225);
+  color:white;
+  min-width: 140px;
+  font-weight: bold;
+
+}
+
+.mybutton{
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 8px;
+  background-color: red;
+  color:white;
+  min-width: 140px;
+  font-weight: bold;
+
+}
+
+#result{
+  display: flex;
+  flex-direction: column;
+}

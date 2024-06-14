@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+  margin: 0%;
+
+}
+#mydiv1{
+  width: 220px;
+  height: 300px;
+  position: absolute;
+  left: 150px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+}
+#decrease{
+  margin: 7px;
+  color: red;
+  height: 30px;
+  width: 100px;
+}
+#reset{
+  margin: 7px;
+  color: rgb(121, 68, 46);
+  height: 30px;
+  width: 100px;
+
+}
+#increase{
+  margin: 7px;
+  height: 30px;
+  width: 100px;
+  
+}
+#counter{
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  text-align: center; 
+  font-size: 5rem;
+  display: block;
+
+}
